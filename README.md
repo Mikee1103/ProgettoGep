@@ -62,7 +62,7 @@ sono Michele, fondatore di Subly, un’applicazione pensata per risolvere un pro
 # WBS
 
 ```mermaid
-    graph TD
+graph TD
     A["Subly - Gestione Abbonamenti (60k - 5 Mesi)"] --> B["Pianificazione e Analisi (3 sett.)"]
     A --> C["Design UI/UX (4 sett.)"]
     A --> D["Sviluppo Frontend (6 sett.)"]
@@ -92,5 +92,17 @@ sono Michele, fondatore di Subly, un’applicazione pensata per risolvere un pro
     E --> E4["Sistema Notifiche"]
 
     F --> F1["Gateway Bancario"]
-    F --> F2["Autentic]()
+    F --> F2["Autenticazione JWT"]
+    F --> F3["Crittografia Password"]
+
+    G --> G1["Test Funzionali"]
+    G --> G2["Bug Fixing"]
+    G --> G3["Test Sicurezza"]
+
+    H --> H1["Landing Page"]
+    H --> H2["Campagne Social"]
+    H --> H3["Pubblicazione MVP"]
+
+    I --> I1["Monitoraggio Server"]
+    I --> I2["Nuove Feature"]
 ```
