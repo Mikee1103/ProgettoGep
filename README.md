@@ -60,47 +60,36 @@ sono Michele, fondatore di Subly, un’applicazione pensata per risolvere un pro
 
 
 # WBS
+
+```mermaid
 graph TD
-    A["Subly - Gestione Abbonamenti<br/>(€60k - 5 Mesi)"] --> B["Pianificazione & Analisi<br/>(€6k - 3 sett.)"]
-    A --> C["Design UI/UX<br/>(€8k - 4 sett.)"]
-    A --> D["Sviluppo Frontend<br/>(€15k - 6 sett.)"]
-    A --> E["Sviluppo Backend<br/>(€15k - 6 sett.)"]
-    A --> F["Integrazione Pagamenti & Sicurezza<br/>(€6k - 3 sett.)"]
-    A --> G["Testing & QA<br/>(€5k - 3 sett.)"]
-    A --> H["Marketing & Lancio<br/>(€3k - 2 sett.)"]
-    A --> I["Supporto & Manutenzione<br/>(€2k - 2 sett.)"]
+    A["Subly - Gestione Abbonamenti (60k - 5 Mesi)"] --> B["Pianificazione e Analisi (3 sett.)"]
+    A --> C["Design UI/UX (4 sett.)"]
+    A --> D["Sviluppo Frontend (6 sett.)"]
+    A --> E["Sviluppo Backend (6 sett.)"]
+    A --> F["Pagamenti e Sicurezza (3 sett.)"]
+    A --> G["Testing e QA (3 sett.)"]
+    A --> H["Marketing e Lancio (2 sett.)"]
+    A --> I["Supporto e Manutenzione (2 sett.)"]
 
-    B --> B1["Analisi Requisiti Funzionali<br/>(€2k - 1 sett.)"]
-    B --> B2["Analisi Competitor<br/>(€1k - 1 sett.)"]
-    B --> B3["Definizione MVP<br/>(€2k - 1 sett.)"]
-    B --> B4["Pianificazione Tecnica & WBS<br/>(€1k - 1 sett.)"]
+    B --> B1["Analisi Requisiti"]
+    B --> B2["Analisi Competitor"]
+    B --> B3["Definizione MVP"]
+    B --> B4["Pianificazione Tecnica"]
 
-    C --> C1["Wireframe Dashboard<br/>(€2k - 1 sett.)"]
-    C --> C2["Prototipo Gestione Abbonamenti<br/>(€3k - 2 sett.)"]
-    C --> C3["User Testing UI<br/>(€3k - 1 sett.)"]
+    C --> C1["Wireframe Dashboard"]
+    C --> C2["Prototipo Gestione Abbonamenti"]
+    C --> C3["User Testing"]
 
-    D --> D1["Interfaccia Login & Registrazione<br/>(€3k - 2 sett.)"]
-    D --> D2["Dashboard Abbonamenti<br/>(€5k - 2 sett.)"]
-    D --> D3["Gestione CRUD Abbonamenti<br/>(€4k - 1 sett.)"]
-    D --> D4["Responsive Design<br/>(€3k - 1 sett.)"]
+    D --> D1["Login e Registrazione"]
+    D --> D2["Dashboard Abbonamenti"]
+    D --> D3["CRUD Abbonamenti"]
+    D --> D4["Responsive Design"]
 
-    E --> E1["API REST Utenti<br/>(€4k - 2 sett.)"]
-    E --> E2["API Gestione Abbonamenti<br/>(€4k - 2 sett.)"]
-    E --> E3["Database (PostgreSQL/MySQL)<br/>(€4k - 1 sett.)"]
-    E --> E4["Sistema Notifiche Scadenze<br/>(€3k - 1 sett.)"]
+    E --> E1["API Utenti"]
+    E --> E2["API Abbonamenti"]
+    E --> E3["Database"]
+    E --> E4["Sistema Notifiche"]
 
-    F --> F1["Integrazione Gateway Bancario<br/>(€3k - 2 sett.)"]
-    F --> F2["Autenticazione & JWT<br/>(€2k - 1 sett.)"]
-    F --> F3["Crittografia Password & GDPR<br/>(€1k - 1 sett.)"]
-
-    G --> G1["Test Funzionali<br/>(€2k - 1 sett.)"]
-    G --> G2["Bug Fixing<br/>(€2k - 1 sett.)"]
-    G --> G3["Test di Sicurezza Base<br/>(€1k - 1 sett.)"]
-
-    H --> H1["Landing Page<br/>(€1k - 1 sett.)"]
-    H --> H2["Campagne Social<br/>(€1k - 1 sett.)"]
-    H --> H3["Pubblicazione MVP<br/>(€1k - 1 sett.)"]
-
-    I --> I1["Monitoraggio Server<br/>(€1k - 1 sett.)"]
-    I --> I2["Aggiornamenti & Feature Premium<br/>(€1k - 1 sett.)"]
-
+    F --> F1["Gateway Bancario"]
+    F --> F2["Autentic]()
