@@ -51,7 +51,7 @@
 
 # SITO LOVABLE
 
-[subly-buddy.lovable.app](https://subly-buddy.lovable.app/auth)
+[subly-buddy.lovable.app](https://subly-buddy.lovable.app)
 
 
 
