@@ -65,6 +65,28 @@ Per garantire velocità, sicurezza e un'esperienza utente fluida, **Subly** è s
 
 ---  
 
+# REQUISITI
+
+###  Requisiti Funzionali
+Il sistema permette all'utente di gestire centralmente i propri abbonamenti attraverso le seguenti funzionalità:
+* **Gestione Account:** Registrazione, login sicuro e recupero credenziali.
+* **Dashboard Abbonamenti:** Inserimento, modifica e rimozione dei servizi attivi (es. piattaforme streaming, software, utility).
+* **Controllo Finanziario:** Calcolo automatico dei costi periodici e analisi della spesa totale accumulata dall'attivazione.
+* **Monitoraggio Scadenze:** Visualizzazione chiara delle date di rinnovo e dei giorni rimanenti.
+* **Operatività Rapida:** Link diretti ai portali ufficiali per gestire rapidamente disdette o rinnovi.
+
+###  Requisiti Non Funzionali
+Per garantire un'esperienza d'uso ottimale, l'applicazione segue questi standard:
+* **User Experience (UX):** Interfaccia semplice, intuitiva e priva di pubblicità per massimizzare la chiarezza dei dati.
+* **Performance & Disponibilità:** Tempi di risposta rapidi e disponibilità continua del servizio.
+* **Design Responsivo:** Compatibilità multipiattaforma (Desktop, Tablet e Mobile).
+* **Privacy-First:** Gestione dei dati basata sull'input dell'utente, senza necessità di collegamenti diretti a conti bancari esterni.
+
+###  Requisiti di Dominio
+Le regole di business che governano la logica dell'applicazione:
+* **Flessibilità di Fatturazione:** Supporto a diversi cicli di pagamento (settimanale, mensile, annuale).
+* **Sicurezza dei Dati:** Protezione delle informazioni sensibili tramite standard di crittografia moderni.
+* **Trasparenza:** Ogni dato finanziario visualizzato deve essere riconducibile alla cronologia dei pagamenti inseriti.
 
 
 # UML USE CASE
