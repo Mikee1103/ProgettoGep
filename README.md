@@ -40,10 +40,30 @@
   "Subly: Meno stress da rinnovo, più consapevolezza di spesa."
   
   
-
-
 # TIMESTAMP JWT
   1758872755
+
+
+---
+
+## 🛠️ Stack Tecnologico
+
+Per garantire velocità, sicurezza e un'esperienza utente fluida, **Subly** è stato sviluppato utilizzando le seguenti tecnologie:
+
+* **Frontend:** `React.js` + `Tailwind CSS`  
+    *Interfaccia moderna e responsiva, ottimizzata per la visualizzazione dei costi su qualsiasi dispositivo.*
+* **Backend:** `Node.js` + `Express`  
+    *Architettura API REST efficiente per la gestione della logica applicativa e delle query.*
+* **Database:** `MongoDB` (o SQLite)  
+    *Struttura flessibile per la memorizzazione dei dati degli abbonamenti e dello storico delle spese.*
+* **Autenticazione:** `JWT (JSON Web Token)`  
+    *Sistema sicuro per la gestione delle sessioni utente e protezione dei dati sensibili.*
+* **Sicurezza:** `Bcrypt`  
+    *Crittografia avanzata per il salvataggio delle password e comunicazioni protette.*
+* **Versioning:** `Git` + `GitHub`  
+    *Controllo di versione rigoroso per il tracciamento dello sviluppo e la collaborazione.*
+
+---  
 
 
 
