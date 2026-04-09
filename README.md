@@ -205,25 +205,50 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 # WBS
 
 
-```text
-SUBLY APP
-├── 1. ANALISI E DESIGN
-│   ├── Definizione Requisiti (Funzionali/Non Funzionali)
-│   ├── Progettazione Schema Database
-│   └── Progettazione Mockup UI/UX
-├── 2. SVILUPPO BACKEND
-│   ├── Setup Server Express & Node.js
-│   ├── Implementazione Autenticazione JWT
-│   └── Sviluppo Motore di Calcolo Scadenze
-├── 3. SVILUPPO FRONTEND
-│   ├── Sviluppo Componenti React (Dashboard, Form, Liste)
-│   ├── Integrazione API & State Management
-│   └── Styling con Tailwind CSS
-├── 4. VALIDAZIONE E TEST
-│   ├── Test delle API (Postman)
-│   ├── Debugging Interfaccia Utente
-│   └── Test di Sicurezza (Bcrypt validation)
-└── 5. DEPLOYMENT
-    ├── Configurazione Cloud Hosting
-    ├── Setup Database Production
-    └── Pubblicazione della Documentazione
+```mermaid
+graph TD
+    %% Nodo Principale
+    Root[<b>SUBLY PROJECT</b>]
+
+    %% Macro Fasi
+    F1[1. Analisi & Design]
+    F2[2. Sviluppo Backend]
+    F3[3. Sviluppo Frontend]
+    F4[4. Testing & QA]
+    F5[5. Deployment]
+
+    %% Collegamenti Fasi
+    Root --> F1
+    Root --> F2
+    Root --> F3
+    Root --> F4
+    Root --> F5
+
+    %% Dettagli Fase 1
+    F1 --- F1a[Definizione Requisiti]
+    F1 --- F1b[Mockup UI/UX]
+
+    %% Dettagli Fase 2
+    F2 --- F2a[Setup API & JWT]
+    F2 --- F2b[Schema Database]
+
+    %% Dettagli Fase 3
+    F3 --- F3a[Componenti React]
+    F3 --- F3b[State Management]
+
+    %% Dettagli Fase 4
+    F4 --- F4a[Unit Testing]
+    F4 --- F4b[Security Audit]
+
+    %% Dettagli Fase 5
+    F5 --- F5a[Cloud Setup]
+    F5 --- F5b[GitHub Actions]
+    
+    %% Styling
+    style Root fill:#f9f,stroke:#333,stroke-width:4px
+    style F1 fill:#bbf,stroke:#333
+    style F2 fill:#bbf,stroke:#333
+    style F3 fill:#bbf,stroke:#333
+    style F4 fill:#bbf,stroke:#333
+    style F5 fill:#bbf,stroke:#333
+```
