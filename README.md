@@ -204,12 +204,9 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 | **TOTALE** | **50.000 €** | **100%** | **Breakeven previsto entro 18 mesi.** |
 # WBS
 
-
-## 🧱 Grafico WBS del Progetto (Verticale)
-
 ```mermaid
 graph TD
-    %% Nodo Principale (Radice) - Stilizzato per risaltare
+    %% Nodo Principale (Radice)
     Root[<b style='font-size:18px;'>SUBLY APP PROJECT</b>]:::root
 
     %% --- Macro Fasi (Livello 1) ---
@@ -219,46 +216,45 @@ graph TD
     F4(<b>4. TEST & QA</b> <br/> Validation):::phase
     F5(<b>5. LAUNCH</b> <br/> & Deployment):::phase
 
-    %% Collegamenti Principali (Radice -> Fasi)
+    %% Collegamenti Principali
     Root ==> F1
     Root ==> F2
     Root ==> F3
     Root ==> F4
     Root ==> F5
 
-    %% --- Sotto-attività (Livello 2) - Più dettagliate ---
+    %% --- Sotto-attività (Livello 2) ---
 
-    %% Fase 1 Dettagli
-    F1 --> F1a(Definizione Requisiti <br/> Funzionali & Non Funzionali):::sub
-    F1 --> F1b(Pianificazione <br/> WBS & Milestones):::sub
-    F1 --> F1c(Progettazione Mockup <br/> UI/UX & Flussi Utente):::sub
+    %% Fase 1
+    F1 --> F1a("Definizione Requisiti <br/> (Funzionali & Non Funzionali)"):::sub
+    F1 --> F1b("Pianificazione <br/> WBS & Milestones"):::sub
+    F1 --> F1c("Progettazione Mockup <br/> UI/UX & Flussi Utente"):::sub
 
-    %% Fase 2 Dettagli
-    F2 --> F2a(Modellazione Database <br/> Utenti & Abbonamenti):::sub
-    F2 --> F2b(Setup Server <br/> Node.js & Express):::sub
-    F2 --> F2c(Implementazione API REST <br/> CRUD dei Servizi):::sub
-    F2 --> F2d(Autenticazione <br/> JWT & Bcrypt):::sub
+    %% Fase 2
+    F2 --> F2a("Modellazione Database <br/> Utenti & Abbonamenti"):::sub
+    F2 --> F2b("Setup Server <br/> Node.js & Express"):::sub
+    F2 --> F2c("Implementazione API REST <br/> CRUD dei Servizi"):::sub
+    F2 --> F2d("Autenticazione <br/> JWT & Bcrypt"):::sub
 
-    %% Fase 3 Dettagli
-    F3 --> F3a(Setup React <br/> & Tailwind CSS):::sub
-    F3 --> F3b(Sviluppo Dashboard <br/> Riepilogo Costi):::sub
-    F3 --> F3c(Integrazione API <br/> & State Management):::sub
-    F3 --> F3d(Ottimizzazione <br/> Mobile Responsiva):::sub
+    %% Fase 3
+    F3 --> F3a("Setup React <br/> & Tailwind CSS"):::sub
+    F3 --> F3b("Sviluppo Dashboard <br/> Riepilogo Costi"):::sub
+    F3 --> F3c("Integrazione API <br/> & State Management"):::sub
+    F3 --> F3d("Ottimizzazione <br/> Mobile Responsiva"):::sub
 
-    %% Fase 4 Dettagli
-    F4 --> F4a(Unit Testing <br/> Funzioni di Calcolo):::sub
-    F4 --> F4b(Api Testing <br/> (Postman)):::sub
-    F4 --> F4c(Beta Testing <br/> Utenti Reali):::sub
-    F4 --> F4d(Audit di <br/> Sicurezza Dati):::sub
+    %% Fase 4
+    F4 --> F4a("Unit Testing <br/> Funzioni di Calcolo"):::sub
+    F4 --> F4b("Api Testing <br/> (Postman)"):::sub
+    F4 --> F4c("Beta Testing <br/> Utenti Reali"):::sub
+    F4 --> F4d("Audit di <br/> Sicurezza Dati"):::sub
 
-    %% Fase 5 Dettagli
-    F5 --> F5a(Configurazione <br/> Cloud Hosting):::sub
-    F5 --> F5b(Setup Database <br/> in Produzione):::sub
-    F5 --> F5c(Deployment Automatico <br/> GitHub Actions):::sub
-    F5 --> F5d(Lancio <br/> & Monitoraggio):::sub
+    %% Fase 5
+    F5 --> F5a("Configurazione <br/> Cloud Hosting"):::sub
+    F5 --> F5b("Setup Database <br/> in Produzione"):::sub
+    F5 --> F5c("Deployment Automatico <br/> GitHub Actions"):::sub
+    F5 --> F5d("Lancio <br/> & Monitoraggio"):::sub
 
     %% --- Styling Class Definition ---
-    %% Definiamo stili per diversi livelli per rendere il grafico più grande e leggibile
-    classDef root fill:#ff99cc,stroke:#333,stroke-width:3px,rx:10,ry:10,color:black,font-family:Arial, sans-serif;
-    classDef phase fill:#bbccff,stroke:#333,stroke-width:2px,rx:8,ry:8,color:black,font-family:Arial, sans-serif;
-    classDef sub fill:#e6eeff,stroke:#666,stroke-width:1px,rx:5,ry:5,color:#333,font-family:Arial, sans-serif;
+    classDef root fill:#ff99cc,stroke:#333,stroke-width:3px,rx:10,ry:10,color:black;
+    classDef phase fill:#bbccff,stroke:#333,stroke-width:2px,rx:8,ry:8,color:black;
+    classDef sub fill:#e6eeff,stroke:#666,stroke-width:1px,rx:5,ry:5,color:#333;
