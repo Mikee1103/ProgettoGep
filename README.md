@@ -204,59 +204,44 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 | **TOTALE** | **50.000 €** | **100%** | **Breakeven previsto entro 18 mesi.** |
 # WBS
 
-```mermaid
 graph TD
-    %% Nodo Principale (Radice)
-    Root[<b style='font-size:18px;'>SUBLY APP PROJECT</b>]:::root
+    %% NODO PRINCIPALE
+    Root[<b style='font-size:20px;'>SUBLY APP PROJECT</b>]:::root
 
-    %% --- Macro Fasi (Livello 1) ---
-    F1(<b>1. PIANIFICAZIONE</b> <br/> & Analisi):::phase
-    F2(<b>2. SVILUPPO BACKEND</b> <br/> Architecture):::phase
-    F3(<b>3. SVILUPPO FRONTEND</b> <br/> User Interface):::phase
-    F4(<b>4. TEST & QA</b> <br/> Validation):::phase
-    F5(<b>5. LAUNCH</b> <br/> & Deployment):::phase
+    %% COLLEGAMENTI MACRO-FASI
+    Root ==> F1(1. PIANIFICAZIONE):::phase
+    Root ==> F2(2. BACKEND):::phase
+    Root ==> F3(3. FRONTEND):::phase
+    Root ==> F4(4. TESTING):::phase
+    Root ==> F5(5. LAUNCH):::phase
 
-    %% Collegamenti Principali
-    Root ==> F1
-    Root ==> F2
-    Root ==> F3
-    Root ==> F4
-    Root ==> F5
+    %% SUBGRAPHS PER FORZARE LA VERTICALITÀ
+    subgraph "Analisi & Design"
+    F1 --- F1a("Requisiti Funzionali"):::sub
+    F1 --- F1b("Mockup UI/UX"):::sub
+    end
 
-    %% --- Sotto-attività (Livello 2) ---
+    subgraph "Server & Data"
+    F2 --- F2a("Database Schema"):::sub
+    F2 --- F2b("API REST & JWT"):::sub
+    end
 
-    %% Fase 1
-    F1 --> F1a("Definizione Requisiti <br/> (Funzionali & Non Funzionali)"):::sub
-    F1 --> F1b("Pianificazione <br/> WBS & Milestones"):::sub
-    F1 --> F1c("Progettazione Mockup <br/> UI/UX & Flussi Utente"):::sub
+    subgraph "Interfaccia Utente"
+    F3 --- F3a("React Components"):::sub
+    F3 --- F3b("Dashboard Design"):::sub
+    end
 
-    %% Fase 2
-    F2 --> F2a("Modellazione Database <br/> Utenti & Abbonamenti"):::sub
-    F2 --> F2b("Setup Server <br/> Node.js & Express"):::sub
-    F2 --> F2c("Implementazione API REST <br/> CRUD dei Servizi"):::sub
-    F2 --> F2d("Autenticazione <br/> JWT & Bcrypt"):::sub
+    subgraph "Qualità"
+    F4 --- F4a("Unit Testing"):::sub
+    F4 --- F4b("Postman Audit"):::sub
+    end
 
-    %% Fase 3
-    F3 --> F3a("Setup React <br/> & Tailwind CSS"):::sub
-    F3 --> F3b("Sviluppo Dashboard <br/> Riepilogo Costi"):::sub
-    F3 --> F3c("Integrazione API <br/> & State Management"):::sub
-    F3 --> F3d("Ottimizzazione <br/> Mobile Responsiva"):::sub
+    subgraph "Rilascio"
+    F5 --- F5a("Cloud Setup"):::sub
+    F5 --- F5b("GitHub Actions"):::sub
+    end
 
-    %% Fase 4
-    F4 --> F4a("Unit Testing <br/> Funzioni di Calcolo"):::sub
-    F4 --> F4b("Api Testing <br/> (Postman)"):::sub
-    F4 --> F4c("Beta Testing <br/> Utenti Reali"):::sub
-    F4 --> F4d("Audit di <br/> Sicurezza Dati"):::sub
-
-    %% Fase 5
-    F5 --> F5a("Configurazione <br/> Cloud Hosting"):::sub
-    F5 --> F5b("Setup Database <br/> in Produzione"):::sub
-    F5 --> F5c("Deployment Automatico <br/> GitHub Actions"):::sub
-    F5 --> F5d("Lancio <br/> & Monitoraggio"):::sub
-
-    %% --- Styling Class Definition ---
-    classDef root fill:#ff99cc,stroke:#333,stroke-width:3px,rx:10,ry:10,color:black;
-    classDef phase fill:#bbccff,stroke:#333,stroke-width:2px,rx:8,ry:8,color:black;
-    classDef sub fill:#e6eeff,stroke:#666,stroke-width:1px,rx:5,ry:5,color:#333;
-```
-
+    %% STILI
+    classDef root fill:#ff99cc,stroke:#333,stroke-width:3px,color:black;
+    classDef phase fill:#bbccff,stroke:#333,stroke-width:2px,color:black;
+    classDef sub fill:#ffffff,stroke:#666,stroke-width:1px,color:#333;
