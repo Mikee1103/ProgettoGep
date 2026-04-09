@@ -204,51 +204,59 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 | **TOTALE** | **50.000 €** | **100%** | **Breakeven previsto entro 18 mesi.** |
 # WBS
 
+```mermaid
 graph TD
-    %% Nodo Principale
-    Root[<b>SUBLY APP PROJECT</b>]:::root
+    %% Nodo Principale (Radice)
+    Root[<b style='font-size:18px;'>SUBLY APP PROJECT</b>]:::root
 
-    %% Macro Fasi
-    F1[1. PIANIFICAZIONE]:::phase
-    F2[2. BACKEND]:::phase
-    F3[3. FRONTEND]:::phase
-    F4[4. TESTING]:::phase
-    F5[5. LAUNCH]:::phase
+    %% --- Macro Fasi (Livello 1) ---
+    F1(<b>1. PIANIFICAZIONE</b> <br/> & Analisi):::phase
+    F2(<b>2. SVILUPPO BACKEND</b> <br/> Architecture):::phase
+    F3(<b>3. SVILUPPO FRONTEND</b> <br/> User Interface):::phase
+    F4(<b>4. TEST & QA</b> <br/> Validation):::phase
+    F5(<b>5. LAUNCH</b> <br/> & Deployment):::phase
 
-    %% Collegamenti
+    %% Collegamenti Principali
     Root ==> F1
     Root ==> F2
     Root ==> F3
     Root ==> F4
     Root ==> F5
 
-    %% Sottolivelli raggruppati per evitare dispersione laterale
-    subgraph S1 [Analisi]
-    F1 --- F1a("Requisiti")
-    F1 --- F1b("Mockup")
-    end
+    %% --- Sotto-attività (Livello 2) ---
 
-    subgraph S2 [Core]
-    F2 --- F2a("Database")
-    F2 --- F2b("API & JWT")
-    end
+    %% Fase 1
+    F1 --> F1a("Definizione Requisiti <br/> (Funzionali & Non Funzionali)"):::sub
+    F1 --> F1b("Pianificazione <br/> WBS & Milestones"):::sub
+    F1 --> F1c("Progettazione Mockup <br/> UI/UX & Flussi Utente"):::sub
 
-    subgraph S3 [UI]
-    F3 --- F3a("React/Tailwind")
-    F3 --- F3b("Dashboard")
-    end
+    %% Fase 2
+    F2 --> F2a("Modellazione Database <br/> Utenti & Abbonamenti"):::sub
+    F2 --> F2b("Setup Server <br/> Node.js & Express"):::sub
+    F2 --> F2c("Implementazione API REST <br/> CRUD dei Servizi"):::sub
+    F2 --> F2d("Autenticazione <br/> JWT & Bcrypt"):::sub
 
-    subgraph S4 [QA]
-    F4 --- F4a("Unit Test")
-    F4 --- F4b("Postman")
-    end
+    %% Fase 3
+    F3 --> F3a("Setup React <br/> & Tailwind CSS"):::sub
+    F3 --> F3b("Sviluppo Dashboard <br/> Riepilogo Costi"):::sub
+    F3 --> F3c("Integrazione API <br/> & State Management"):::sub
+    F3 --> F3d("Ottimizzazione <br/> Mobile Responsiva"):::sub
 
-    subgraph S5 [Deploy]
-    F5 --- F5a("Cloud")
-    F5 --- F5b("Actions")
-    end
+    %% Fase 4
+    F4 --> F4a("Unit Testing <br/> Funzioni di Calcolo"):::sub
+    F4 --> F4b("Api Testing <br/> (Postman)"):::sub
+    F4 --> F4c("Beta Testing <br/> Utenti Reali"):::sub
+    F4 --> F4d("Audit di <br/> Sicurezza Dati"):::sub
 
-    %% Styling
-    classDef root fill:#f9c,stroke:#333,stroke-width:4px,font-size:20px;
-    classDef phase fill:#bbf,stroke:#333,stroke-width:2px,font-size:16px;
-    classDef default fill:#fff,stroke:#666,font-size:14px;
+    %% Fase 5
+    F5 --> F5a("Configurazione <br/> Cloud Hosting"):::sub
+    F5 --> F5b("Setup Database <br/> in Produzione"):::sub
+    F5 --> F5c("Deployment Automatico <br/> GitHub Actions"):::sub
+    F5 --> F5d("Lancio <br/> & Monitoraggio"):::sub
+
+    %% --- Styling Class Definition ---
+    classDef root fill:#ff99cc,stroke:#333,stroke-width:3px,rx:10,ry:10,color:black;
+    classDef phase fill:#bbccff,stroke:#333,stroke-width:2px,rx:8,ry:8,color:black;
+    classDef sub fill:#e6eeff,stroke:#666,stroke-width:1px,rx:5,ry:5,color:#333;
+```
+
