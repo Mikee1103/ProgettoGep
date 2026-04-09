@@ -33,7 +33,7 @@
 | **Accesso Diretto ai Portali** | 🔥 High | **Integrato** | No (Servizio esterno) | No | Parziale |
 | **Privacy & Controllo Dati** | 🔥 High | **Alta (No Bank Link)** | Bassa (Richiede conto) | Alta | Bassa |
 | **Facilità d'uso (UI/UX)** | 🔥 High | **Moderna** | Eccellente | Datata | Buona |
-| **Costi del Servizio** | 🔥 High | **Gratis** | Premium ($$$) | Freemium | Premium |
+| **Costi del Servizio** | 🔥 High | **Freemium** | Premium ($$$) | Freemium | Premium |
 | **Analisi Risparmio** | 🟡 Moderate | **Semplificata** | Avanzata | Assente | Avanzata |
 
 # TAGLINE
