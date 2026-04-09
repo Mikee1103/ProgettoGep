@@ -205,50 +205,60 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 # WBS
 
 
+## 🧱 Grafico WBS del Progetto (Verticale)
+
 ```mermaid
 graph TD
-    %% Nodo Principale
-    Root[<b>SUBLY PROJECT</b>]
+    %% Nodo Principale (Radice) - Stilizzato per risaltare
+    Root[<b style='font-size:18px;'>SUBLY APP PROJECT</b>]:::root
 
-    %% Macro Fasi
-    F1[1. Analisi & Design]
-    F2[2. Sviluppo Backend]
-    F3[3. Sviluppo Frontend]
-    F4[4. Testing & QA]
-    F5[5. Deployment]
+    %% --- Macro Fasi (Livello 1) ---
+    F1(<b>1. PIANIFICAZIONE</b> <br/> & Analisi):::phase
+    F2(<b>2. SVILUPPO BACKEND</b> <br/> Architecture):::phase
+    F3(<b>3. SVILUPPO FRONTEND</b> <br/> User Interface):::phase
+    F4(<b>4. TEST & QA</b> <br/> Validation):::phase
+    F5(<b>5. LAUNCH</b> <br/> & Deployment):::phase
 
-    %% Collegamenti Fasi
-    Root --> F1
-    Root --> F2
-    Root --> F3
-    Root --> F4
-    Root --> F5
+    %% Collegamenti Principali (Radice -> Fasi)
+    Root ==> F1
+    Root ==> F2
+    Root ==> F3
+    Root ==> F4
+    Root ==> F5
 
-    %% Dettagli Fase 1
-    F1 --- F1a[Definizione Requisiti]
-    F1 --- F1b[Mockup UI/UX]
+    %% --- Sotto-attività (Livello 2) - Più dettagliate ---
 
-    %% Dettagli Fase 2
-    F2 --- F2a[Setup API & JWT]
-    F2 --- F2b[Schema Database]
+    %% Fase 1 Dettagli
+    F1 --> F1a(Definizione Requisiti <br/> Funzionali & Non Funzionali):::sub
+    F1 --> F1b(Pianificazione <br/> WBS & Milestones):::sub
+    F1 --> F1c(Progettazione Mockup <br/> UI/UX & Flussi Utente):::sub
 
-    %% Dettagli Fase 3
-    F3 --- F3a[Componenti React]
-    F3 --- F3b[State Management]
+    %% Fase 2 Dettagli
+    F2 --> F2a(Modellazione Database <br/> Utenti & Abbonamenti):::sub
+    F2 --> F2b(Setup Server <br/> Node.js & Express):::sub
+    F2 --> F2c(Implementazione API REST <br/> CRUD dei Servizi):::sub
+    F2 --> F2d(Autenticazione <br/> JWT & Bcrypt):::sub
 
-    %% Dettagli Fase 4
-    F4 --- F4a[Unit Testing]
-    F4 --- F4b[Security Audit]
+    %% Fase 3 Dettagli
+    F3 --> F3a(Setup React <br/> & Tailwind CSS):::sub
+    F3 --> F3b(Sviluppo Dashboard <br/> Riepilogo Costi):::sub
+    F3 --> F3c(Integrazione API <br/> & State Management):::sub
+    F3 --> F3d(Ottimizzazione <br/> Mobile Responsiva):::sub
 
-    %% Dettagli Fase 5
-    F5 --- F5a[Cloud Setup]
-    F5 --- F5b[GitHub Actions]
-    
-    %% Styling
-    style Root fill:#f9f,stroke:#333,stroke-width:4px
-    style F1 fill:#bbf,stroke:#333
-    style F2 fill:#bbf,stroke:#333
-    style F3 fill:#bbf,stroke:#333
-    style F4 fill:#bbf,stroke:#333
-    style F5 fill:#bbf,stroke:#333
-```
+    %% Fase 4 Dettagli
+    F4 --> F4a(Unit Testing <br/> Funzioni di Calcolo):::sub
+    F4 --> F4b(Api Testing <br/> (Postman)):::sub
+    F4 --> F4c(Beta Testing <br/> Utenti Reali):::sub
+    F4 --> F4d(Audit di <br/> Sicurezza Dati):::sub
+
+    %% Fase 5 Dettagli
+    F5 --> F5a(Configurazione <br/> Cloud Hosting):::sub
+    F5 --> F5b(Setup Database <br/> in Produzione):::sub
+    F5 --> F5c(Deployment Automatico <br/> GitHub Actions):::sub
+    F5 --> F5d(Lancio <br/> & Monitoraggio):::sub
+
+    %% --- Styling Class Definition ---
+    %% Definiamo stili per diversi livelli per rendere il grafico più grande e leggibile
+    classDef root fill:#ff99cc,stroke:#333,stroke-width:3px,rx:10,ry:10,color:black,font-family:Arial, sans-serif;
+    classDef phase fill:#bbccff,stroke:#333,stroke-width:2px,rx:8,ry:8,color:black,font-family:Arial, sans-serif;
+    classDef sub fill:#e6eeff,stroke:#666,stroke-width:1px,rx:5,ry:5,color:#333,font-family:Arial, sans-serif;
