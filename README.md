@@ -46,7 +46,7 @@
 
 ---
 
-## 🛠️ Stack Tecnologico
+# TECNOLOGIE
 
 Per garantire velocità, sicurezza e un'esperienza utente fluida, **Subly** è stato sviluppato utilizzando le seguenti tecnologie:
 
