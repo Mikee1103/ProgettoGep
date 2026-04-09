@@ -204,48 +204,26 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 | **TOTALE** | **50.000 €** | **100%** | **Breakeven previsto entro 18 mesi.** |
 # WBS
 
-```mermaid
-graph TD
-    A["Subly - Gestione Abbonamenti (60k - 5 Mesi)"] --> B["Pianificazione e Analisi (3 sett.)"]
-    A --> C["Design UI/UX (4 sett.)"]
-    A --> D["Sviluppo Frontend (6 sett.)"]
-    A --> E["Sviluppo Backend (6 sett.)"]
-    A --> F["Pagamenti e Sicurezza (3 sett.)"]
-    A --> G["Testing e QA (3 sett.)"]
-    A --> H["Marketing e Lancio (2 sett.)"]
-    A --> I["Supporto e Manutenzione (2 sett.)"]
 
-    B --> B1["Analisi Requisiti"]
-    B --> B2["Analisi Competitor"]
-    B --> B3["Definizione MVP"]
-    B --> B4["Pianificazione Tecnica"]
-
-    C --> C1["Wireframe Dashboard"]
-    C --> C2["Prototipo Gestione Abbonamenti"]
-    C --> C3["User Testing"]
-
-    D --> D1["Login e Registrazione"]
-    D --> D2["Dashboard Abbonamenti"]
-    D --> D3["CRUD Abbonamenti"]
-    D --> D4["Responsive Design"]
-
-    E --> E1["API Utenti"]
-    E --> E2["API Abbonamenti"]
-    E --> E3["Database"]
-    E --> E4["Sistema Notifiche"]
-
-    F --> F1["Gateway Bancario"]
-    F --> F2["Autenticazione JWT"]
-    F --> F3["Crittografia Password"]
-
-    G --> G1["Test Funzionali"]
-    G --> G2["Bug Fixing"]
-    G --> G3["Test Sicurezza"]
-
-    H --> H1["Landing Page"]
-    H --> H2["Campagne Social"]
-    H --> H3["Pubblicazione MVP"]
-
-    I --> I1["Monitoraggio Server"]
-    I --> I2["Nuove Feature"]
-```
+```text
+SUBLY APP
+├── 1. ANALISI E DESIGN
+│   ├── Definizione Requisiti (Funzionali/Non Funzionali)
+│   ├── Progettazione Schema Database
+│   └── Progettazione Mockup UI/UX
+├── 2. SVILUPPO BACKEND
+│   ├── Setup Server Express & Node.js
+│   ├── Implementazione Autenticazione JWT
+│   └── Sviluppo Motore di Calcolo Scadenze
+├── 3. SVILUPPO FRONTEND
+│   ├── Sviluppo Componenti React (Dashboard, Form, Liste)
+│   ├── Integrazione API & State Management
+│   └── Styling con Tailwind CSS
+├── 4. VALIDAZIONE E TEST
+│   ├── Test delle API (Postman)
+│   ├── Debugging Interfaccia Utente
+│   └── Test di Sicurezza (Bcrypt validation)
+└── 5. DEPLOYMENT
+    ├── Configurazione Cloud Hosting
+    ├── Setup Database Production
+    └── Pubblicazione della Documentazione
