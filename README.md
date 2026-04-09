@@ -109,7 +109,8 @@ Le funzionalità di **Subly** sono state progettate mettendo l'utente al centro 
 
 
 # UML USE CASE
-<img width="1096" height="649" alt="image" src="https://github.com/user-attachments/assets/2572b666-921b-444f-b695-6156142677ff" />
+<img width="864" height="633" alt="image" src="https://github.com/user-attachments/assets/db36cd46-7a6d-4af3-803f-e42824a0a6a5" />
+
 
 
 
