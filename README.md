@@ -145,28 +145,51 @@ Subly risponde a questa esigenza offrendo un hub centralizzato per il monitoragg
 
 **Slide 4: Market Size**
 Il mercato della Subscription Economy ha raggiunto un valore globale di 650 miliardi di dollari. Con una media di dieci abbonamenti attivi per utente, Subly si posiziona nel settore strategico del Personal Finance Management. Questo comparto è in rapida espansione grazie alla crescente digitalizzazione dei pagamenti e alla necessità dei consumatori di ottimizzare il proprio budget mensile.
+
 ---
+
+
 **Slide 5: Business Model**
 Il modello di business si basa su una strategia Freemium. La versione base gratuita garantisce l'accesso al tracciamento e ai promemoria, mentre la versione Pro genera ricavi tramite un abbonamento che sblocca analisi predittive avanzate, esportazione dei dati in formato professionale e la gestione di account multipli per nuclei familiari.
+
 ---
+
+
 **Slide 6: Proprietary Technology**
 L'infrastruttura tecnologica utilizza React per un frontend reattivo e Node.js per un backend scalabile. La sicurezza è garantita da protocolli di crittografia Bcrypt e gestione delle sessioni tramite JWT. Il vero valore aggiunto è rappresentato dal Deep-Linking Engine, un database proprietario che mappa i percorsi diretti verso le sezioni di disdetta dei principali provider mondiali.
+
 ---
+
+
 **Slide 7: Competition**
 Nonostante la presenza di competitor come Rocket Money o Dyme, il mercato attuale è polarizzato tra app troppo complesse o servizi che richiedono l'accesso intrusivo ai dati bancari. Subly si distingue per un approccio radicalmente diverso, offrendo uno strumento potente ma rispettoso della riservatezza dei dati dell'utente.
+
 ---
+
 **Slide 8: Why is Subly better?**
 La superiorità di Subly risiede nel principio Privacy-First, poiché non obbliga l'utente a collegare il proprio conto corrente. L'interfaccia è studiata per ridurre il carico cognitivo, mentre la funzione esclusiva del calcolo del costo storico totale permette una consapevolezza finanziaria che i competitor tradizionali tendono a nascondere per non scoraggiare il consumo.
+
 ---
+
+
 **Slide 9: Customer Acquisition**
 La crescita della piattaforma è affidata a una strategia di App Store Optimization mirata e al Content Marketing incentrato sul risparmio consapevole. Un programma di Referral interno incentiva inoltre la diffusione virale dell'app, premiando gli utenti che aiutano la community a espandersi e a mappare nuovi servizi digitali.
+
 ---
+
+
 **Slide 10: Founding Team**
 Il progetto è ideato e sviluppato integralmente da [Tuo Nome], nel ruolo di Founder e Lead Developer, con una visione chiara sulla democratizzazione degli strumenti finanziari.
+
 ---
+
+
 **Slide 11: Money, Milestones**
 L'obiettivo per il primo anno è il raggiungimento di cinquemila utenti attivi e la mappatura completa di oltre cinquecento servizi internazionali. Grazie a una struttura di costi infrastrutturali estremamente ridotta, il punto di pareggio è previsto entro i primi diciotto mesi di attività, aprendo la strada a future integrazioni con sistemi di pagamento smart.
+
 ---
+
+
 # WBS
 
 ```mermaid
