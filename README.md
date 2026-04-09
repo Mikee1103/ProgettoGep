@@ -206,43 +206,43 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 
 ```mermaid
 graph TD
-    %% NODO PRINCIPALE
-    Root[SUBLY APP PROJECT]:::root
+    %% NODO PRINCIPALE - Aumentato font-size e padding
+    Root[<b style='font-size:24px; padding:10px;'>SUBLY APP PROJECT</b>]:::root
 
-    %% COLLEGAMENTI MACRO-FASI
-    Root ==> F1(1. PIANIFICAZIONE):::phase
-    Root ==> F2(2. BACKEND):::phase
-    Root ==> F3(3. FRONTEND):::phase
-    Root ==> F4(4. TESTING):::phase
-    Root ==> F5(5. LAUNCH):::phase
+    %% COLLEGAMENTI MACRO-FASI - Linee più spesse
+    Root ==> F1(<b>1. PIANIFICAZIONE</b>):::phase
+    Root ==> F2(<b>2. BACKEND</b>):::phase
+    Root ==> F3(<b>3. FRONTEND</b>):::phase
+    Root ==> F4(<b>4. TESTING</b>):::phase
+    Root ==> F5(<b>5. LAUNCH</b>):::phase
 
-    %% SUBGRAPHS PER FORZARE LA VERTICALITÀ
+    %% SUBGRAPHS PER FORZARE LA VERTICALITÀ E SPAZIATURA
     subgraph "Analisi & Design"
-    F1 --- F1a("Requisiti Funzionali"):::sub
-    F1 --- F1b("Mockup UI/UX"):::sub
+    F1 --- F1a("<div style='font-size:16px; padding:5px;'>Requisiti Funzionali</div>"):::sub
+    F1 --- F1b("<div style='font-size:16px; padding:5px;'>Mockup UI/UX</div>"):::sub
     end
 
     subgraph "Server & Data"
-    F2 --- F2a("Database Schema"):::sub
-    F2 --- F2b("API REST & JWT"):::sub
+    F2 --- F2a("<div style='font-size:16px; padding:5px;'>Database Schema</div>"):::sub
+    F2 --- F2b("<div style='font-size:16px; padding:5px;'>API REST & JWT</div>"):::sub
     end
 
     subgraph "Interfaccia Utente"
-    F3 --- F3a("React Components"):::sub
-    F3 --- F3b("Dashboard Design"):::sub
+    F3 --- F3a("<div style='font-size:16px; padding:5px;'>React Components</div>"):::sub
+    F3 --- F3b("<div style='font-size:16px; padding:5px;'>Dashboard Design</div>"):::sub
     end
 
     subgraph "Qualità"
-    F4 --- F4a("Unit Testing"):::sub
-    F4 --- F4b("Postman Audit"):::sub
+    F4 --- F4a("<div style='font-size:16px; padding:5px;'>Unit Testing</div>"):::sub
+    F4 --- F4b("<div style='font-size:16px; padding:5px;'>Postman Audit</div>"):::sub
     end
 
     subgraph "Rilascio"
-    F5 --- F5a("Cloud Setup"):::sub
-    F5 --- F5b("GitHub Actions"):::sub
+    F5 --- F5a("<div style='font-size:16px; padding:5px;'>Cloud Setup</div>"):::sub
+    F5 --- F5b("<div style='font-size:16px; padding:5px;'>GitHub Actions</div>"):::sub
     end
 
-    %% STILI
-    classDef root fill:#ff99cc,stroke:#333,stroke-width:3px,color:black;
-    classDef phase fill:#bbccff,stroke:#333,stroke-width:2px,color:black;
-    classDef sub fill:#ffffff,stroke:#666,stroke-width:1px,color:#333;
+    %% STILI OTTIMIZZATI PER GRANDEZZA
+    classDef root fill:#ff99cc,stroke:#333,stroke-width:4px,color:black;
+    classDef phase fill:#bbccff,stroke:#333,stroke-width:3px,color:black,font-size:18px;
+    classDef sub fill:#ffffff,stroke:#666,stroke-width:2px,color:#333;
