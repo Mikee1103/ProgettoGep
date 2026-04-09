@@ -189,14 +189,19 @@ L'obiettivo per il primo anno è il raggiungimento di cinquemila utenti attivi e
 
 ---
 # L'INVESTIMENTO
-Per accelerare lo sviluppo tecnologico e l'espansione sul mercato, Subly ricerca un investimento iniziale di cinquantamila euro. Questo capitale verrà impiegato per il potenziamento dell'infrastruttura server, l'implementazione di algoritmi di intelligenza artificiale per l'analisi predittiva delle spese e il lancio delle prime campagne di acquisizione utenti su scala nazionale. In cambio di questo finanziamento, viene offerta una quota di partecipazione pari al dieci per cento della società. Tale valutazione riflette non solo il potenziale di crescita del software in un mercato in forte espansione, ma anche il valore dell'architettura proprietaria già sviluppata e la scalabilità immediata del modello di business.
+Per accelerare lo sviluppo tecnologico e l'espansione sul mercato, Subly ricerca un investimento iniziale di **50.000€**. Questo capitale verrà impiegato per il potenziamento dell'infrastruttura server, l'implementazione di algoritmi di intelligenza artificiale per l'analisi predittiva delle spese e il lancio delle prime campagne di acquisizione utenti su scala nazionale. In cambio di questo finanziamento, viene offerta una quota di partecipazione pari al **10%** della società. Tale valutazione riflette non solo il potenziale di crescita del software in un mercato in forte espansione, ma anche il valore dell'architettura proprietaria già sviluppata e la scalabilità immediata del modello di business.
 
-pie title Distribuzione Investimento (50.000€)
-    "Sviluppo Software & AI" : 20000
-    "Marketing & Acquisizione" : 15000
-    "Infrastruttura & Cloud" : 7500
-    "Legal & Operations" : 7500
-    
+### Destinazione dei Fondi 
+
+A fronte di un investimento di **50.000 €**, la ripartizione del capitale è pianificata per massimizzare la crescita tecnica e commerciale:
+
+| Area di Investimento | Budget | % | Obiettivo |
+| :--- | :--- | :---: | :--- |
+| **Sviluppo & AI** | 20.000 € | 40% | Evoluzione algoritmi predittivi e automazione link. |
+| **Marketing & Growth** | 15.000 € | 30% | Campagne acquisizione e posizionamento store. |
+| **Infrastruttura Cloud** | 7.500 € | 15% | Sicurezza dati e scalabilità dei server. |
+| **Legal & Operations** | 7.500 € | 15% | Conformità GDPR e protezione legale marchio. |
+| **TOTALE** | **50.000 €** | **100%** | **Breakeven previsto entro 18 mesi.** |
 # WBS
 
 ```mermaid
