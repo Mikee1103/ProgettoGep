@@ -204,9 +204,10 @@ A fronte di un investimento di **50.000 €**, la ripartizione del capitale è p
 | **TOTALE** | **50.000 €** | **100%** | **Breakeven previsto entro 18 mesi.** |
 # WBS
 
+```mermaid
 graph TD
     %% NODO PRINCIPALE
-    Root[<b style='font-size:20px;'>SUBLY APP PROJECT</b>]:::root
+    Root[SUBLY APP PROJECT]:::root
 
     %% COLLEGAMENTI MACRO-FASI
     Root ==> F1(1. PIANIFICAZIONE):::phase
