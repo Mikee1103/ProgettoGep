@@ -117,7 +117,7 @@ Le funzionalità di **Subly** sono state progettate mettendo l'utente al centro 
 
 # SITO LOVABLE
 
-[[subly-buddy.lovable.app](https://subly-buddy.lovable.app)](https://subly-buddy.lovable.app)
+[[subly-buddy.lovable.app](https://subly-buddy.lovable.app)]
 
 
 
