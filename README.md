@@ -246,3 +246,34 @@ graph TD
     classDef root fill:#ff99cc,stroke:#333,stroke-width:4px,color:black;
     classDef phase fill:#bbccff,stroke:#333,stroke-width:3px,color:black,font-size:18px;
     classDef sub fill:#ffffff,stroke:#666,stroke-width:2px,color:#333;
+```
+
+# TIMELINE
+```mermaid
+gantt
+    title Cronoprogramma Subly - Gestione Sviluppo (4 Mesi)
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d/%m
+
+    section 1. Analisi & Legale (€7.5k)
+    Definizione requisiti e GDPR       :active, p1, 2025-01-11, 14d
+    Architettura tecnica e WBS         :p2, after p1, 10d
+
+    section 2. Infrastruttura (€7.5k)
+    Setup Cloud e Sicurezza            :p3, 2025-01-25, 12d
+    Autenticazione e Ruoli (JWT)       :p4, after p3, 10d
+
+    section 3. Backend & DB (€20k)
+    Modellazione Database              :p5, 2025-02-01, 10d
+    API Sviluppo e Integrazione        :p6, after p5, 20d
+    Logica di calcolo e Scadenze       :crit, p7, after p6, 15d
+
+    section 4. Frontend & UX (€15k)
+    UI/UX Design Mockup                :p8, 2025-01-25, 14d
+    Sviluppo Web App React             :p9, after p8, 30d
+    Integrazione Dashboard             :p10, after p9, 20d
+
+    section 5. Testing & Lancio (€0k)
+    Bug fixing e Beta Testing          :p11, 2025-03-22, 14d
+    Deployment e Lancio                :milestone, m1, 2025-04-05, 0d
+```
