@@ -188,8 +188,16 @@ Il progetto è ideato e sviluppato integralmente da [Tuo Nome], nel ruolo di Fou
 L'obiettivo per il primo anno è il raggiungimento di cinquemila utenti attivi e la mappatura completa di oltre cinquecento servizi internazionali. Grazie a una struttura di costi infrastrutturali estremamente ridotta, il punto di pareggio è previsto entro i primi diciotto mesi di attività, aprendo la strada a future integrazioni con sistemi di pagamento smart.
 
 ---
+# L'INVESTIMENTO
+Per accelerare lo sviluppo tecnologico e l'espansione sul mercato, Subly ricerca un investimento iniziale di cinquantamila euro. Questo capitale verrà impiegato per il potenziamento dell'infrastruttura server, l'implementazione di algoritmi di intelligenza artificiale per l'analisi predittiva delle spese e il lancio delle prime campagne di acquisizione utenti su scala nazionale. In cambio di questo finanziamento, viene offerta una quota di partecipazione pari al dieci per cento della società. Tale valutazione riflette non solo il potenziale di crescita del software in un mercato in forte espansione, ma anche il valore dell'architettura proprietaria già sviluppata e la scalabilità immediata del modello di business.
 
-
+```mermaid
+pie title Ripartizione Fondi
+    "Sviluppo" : 40
+    "Marketing" : 30
+    "Cloud" : 15
+    "Legal" : 15
+```
 # WBS
 
 ```mermaid
