@@ -37,9 +37,7 @@
 | **Analisi Risparmio** | 🟡 Moderate | **Semplificata** | Avanzata | Assente | Avanzata |
 
 # TAGLINE
-  "Basta abbonamenti 
-  dimenticati, gestiscili tutti 
-  da una singola interfaccia"
+  "Subly: Meno stress da rinnovo, più consapevolezza di spesa."
   
   
 
