@@ -77,7 +77,7 @@ Il sistema permette all'utente di gestire centralmente i propri abbonamenti attr
 
 ###  Requisiti Non Funzionali
 Per garantire un'esperienza d'uso ottimale, l'applicazione segue questi standard:
- **User Experience (UX):** Interfaccia semplice, intuitiva e priva di pubblicità per massimizzare la chiarezza dei dati.
+ **User Experience (UX):** Interfaccia semplice ed intuitiva per massimizzare la chiarezza dei dati.
  **Performance & Disponibilità:** Tempi di risposta rapidi e disponibilità continua del servizio.
  **Design Responsivo:** Compatibilità multipiattaforma (Desktop, Tablet e Mobile).
  **Privacy-First:** Gestione dei dati basata sull'input dell'utente, senza necessità di collegamenti diretti a conti bancari esterni.
