@@ -5,10 +5,7 @@
 
 
 # DESCRIZIONE
-  "Applicazione che ti permette di inserire tutti i tuoi abbonamenti attivi e controllare per ognuno tutti i dati
-  ( costi, costi dall'attivazione, scadenza etc ).
-  Da essa puoi direttamente accedere ai siti degli abbonamenti per rinnovarli o disdirli."
-
+  Prendi il controllo delle tue finanze con [Nome App]. Un'interfaccia intuitiva per monitorare ogni abbonamento attivo, analizzare lo storico dei costi e gestire le scadenze in un unico posto. Ottimizza le tue spese e accedi direttamente ai servizi per rinnovare o cancellare i tuoi piani in un click.
 
 # PROBLEMA
   "Risolve il problema di abbonamenti 
