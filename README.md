@@ -89,6 +89,25 @@ Le regole di business che governano la logica dell'applicazione:
 * **Trasparenza:** Ogni dato finanziario visualizzato deve essere riconducibile alla cronologia dei pagamenti inseriti.
 
 
+## USER STORY
+
+Le funzionalità di **Subly** sono state progettate mettendo l'utente al centro del processo. Ecco i principali scenari d'uso:
+
+###  Per l'Utente Standard
+* **Monitoraggio Spese:** > *In quanto utente,* voglio inserire il costo e la frequenza di ogni mio abbonamento, *così da* avere un quadro chiaro di quanto spendo ogni mese.
+* **Storico Pagamenti:** > *In quanto utente,* voglio vedere il totale dei costi accumulati dalla data di attivazione, *così da* rendermi conto dell'impatto economico a lungo termine di ogni servizio.
+* **Gestione Scadenze:** > *In quanto utente,* voglio visualizzare una lista ordinata per data di scadenza, *così da* non dimenticarmi dei rinnovi imminenti ed evitare addebiti indesiderati.
+* **Azione Rapida:** > *In quanto utente,* voglio poter cliccare su un tasto che mi porti direttamente alla pagina di disdetta del servizio, *così da* non perdere tempo a cercare le impostazioni nel sito del fornitore.
+
+### Sicurezza e Accesso
+* **Privacy e Controllo:** > *In quanto utente attento alla privacy,* voglio poter inserire i miei dati manualmente senza collegare il mio conto bancario reale, *così da* mantenere il pieno controllo sulle mie informazioni finanziarie.
+* **Accesso Protetto:** > *In quanto utente,* voglio accedere tramite password crittografata, *così da* essere sicuro che solo io possa visualizzare la mia lista di abbonamenti.
+
+### Per l'Amministratore (Admin)
+* **Gestione Catalogo:** > *In quanto amministratore,* voglio poter aggiungere nuovi template di abbonamenti predefiniti (es. loghi e link di Netflix, Disney+, Spotify), *così da* rendere l'inserimento più veloce per gli utenti.
+
+
+
 # UML USE CASE
 <img width="1096" height="649" alt="image" src="https://github.com/user-attachments/assets/2572b666-921b-444f-b695-6156142677ff" />
 
