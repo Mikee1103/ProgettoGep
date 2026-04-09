@@ -25,6 +25,15 @@
   TrackMySubs
   Dyme
 
+# ANALISI
+    Caratteristica,Importanza,💎 Subly (Tua App),🚀 Rocket Money,📈 TrackMySubs,💶 Dyme
+Tracciamento Costi Totali,🔥 High,Disponibile (Storico completo dall'attivazione),Disponibile,Solo previsione mensile/annuale,Disponibile
+Accesso Diretto ai Portali,🔥 High,Integrato (Link rapidi per rinnovo/disdetta),No (Usa un servizio concierge),No,Parziale
+Privacy & Controllo Dati,🔥 High,Massima (Nessun collegamento bancario richiesto),Bassa (Richiede accesso al conto),Alta (Inserimento manuale),Bassa (Richiede accesso al conto)
+Facilità d'uso (UI/UX),🔥 High,Moderna e Intuitiva,Eccellente,Datata (Stile Web 2.0),Buona
+Promemoria Scadenze,🔥 High,Personalizzabili,Standard,Avanzati,Standard
+Costi del Servizio,🔥 High,Gratis / Open Source,Premium ($7-12/mese),Freemium (Limitato),Premium (per funzioni extra)
+Analisi Risparmio,🟡 Moderate,Semplificata,Molto avanzata,Assente,Avanzata
 
 
 # TAGLINE
