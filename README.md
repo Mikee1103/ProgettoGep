@@ -26,7 +26,6 @@
   Dyme
 
 # ANALISI
-## 📊 Analisi Comparativa
 
 | Caratteristica | Importanza | 💎 Subly | 🚀 Rocket Money | 📈 TrackMySubs | 💶 Dyme |
 | :--- | :---: | :--- | :--- | :--- | :--- |
