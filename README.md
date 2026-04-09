@@ -130,13 +130,19 @@ sono Michele, fondatore di Subly, un’applicazione pensata per risolvere un pro
 
 **Slide 1: The Opening Slide**
 Subly è il progetto di Finanza Personale focalizzato sulla gestione intelligente degli abbonamenti digitali, il software nasce con l'obiettivo di restituire all'utente il controllo totale sulle proprie spese ricorrenti attraverso lo slogan: "Prendi il controllo, smetti di subire i tuoi abbonamenti."
+
 ---
+
 **Slide 2: The Problem**
 Oggi la gestione delle finanze digitali è diventata estremamente complessa a causa della frammentazione dei servizi. La "Subscription Fatigue" porta gli utenti a dimenticare rinnovi, ignorare aumenti di prezzo e perdere traccia degli addebiti mensili. Questo caos finanziario genera uno spreco silenzioso di centinaia di euro ogni anno per servizi inutilizzati o dimenticati.
+
 ---
+
 **Slide 3: The Solution**
 Subly risponde a questa esigenza offrendo un hub centralizzato per il monitoraggio delle spese. L'applicazione non si limita a elencare i costi, ma analizza l'impatto economico totale dall'attivazione del servizio e fornisce link diretti alle pagine di gestione dei fornitori. In questo modo, l'utente può decidere di rinnovare o disdire un abbonamento con un unico click, eliminando ogni barriera burocratica.
+
 ---
+
 **Slide 4: Market Size**
 Il mercato della Subscription Economy ha raggiunto un valore globale di 650 miliardi di dollari. Con una media di dieci abbonamenti attivi per utente, Subly si posiziona nel settore strategico del Personal Finance Management. Questo comparto è in rapida espansione grazie alla crescente digitalizzazione dei pagamenti e alla necessità dei consumatori di ottimizzare il proprio budget mensile.
 ---
