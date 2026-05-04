@@ -5,7 +5,7 @@
 
 
 # DESCRIZIONE
-  Prendi il controllo delle tue finanze con [Nome App]. Un'interfaccia intuitiva per monitorare ogni abbonamento attivo, analizzare lo storico dei costi e gestire le scadenze in un unico posto. Ottimizza le tue spese e accedi direttamente ai servizi per rinnovare o cancellare i tuoi piani in un click.
+  Prendi il controllo delle tue finanze con Subly. Un'interfaccia intuitiva per monitorare ogni abbonamento attivo, analizzare lo storico dei costi e gestire le scadenze in un unico posto. Ottimizza le tue spese e accedi direttamente ai servizi per rinnovare o cancellare i tuoi piani in un click.
 
 # PROBLEMA
   "Risolve il problema di abbonamenti 
