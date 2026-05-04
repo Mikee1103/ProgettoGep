@@ -179,7 +179,7 @@ La crescita della piattaforma è affidata a una strategia di App Store Optimizat
 
 
 **Slide 10: Founding Team**
-Il progetto è ideato e sviluppato integralmente da [Tuo Nome], nel ruolo di Founder e Lead Developer, con una visione chiara sulla democratizzazione degli strumenti finanziari.
+Il progetto è ideato e sviluppato integralmente da Michele, nel ruolo di Founder e Lead Developer, con una visione chiara sulla democratizzazione degli strumenti finanziari.
 
 ---
 
